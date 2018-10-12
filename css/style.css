@@ -1,0 +1,160 @@
+* {
+    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Start Nav */
+nav {
+    margin: 0 auto;
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+    }
+nav ul li {
+    display: inline-block;
+}    
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+    font-family: "Open Sans";
+    text-transform:uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+}    
+
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.075);
+  }
+    
+
+/* div {
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    
+} */
+
+header {
+    text-align: center;
+    height: 100vh;
+    background-image: url('../assets/banner-travel.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 20%; 
+    letter-spacing: 3px;
+    text-align: center;
+    color: black;
+    text-shadow:3px 3px 6px black;
+    font-size: 150px;
+    font-family: 'Sacramento', cursive;
+}
+
+header a {
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+header a :hover {
+    padding-bottom: 0px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+div:hover {
+    background-position: center;
+    
+}
+
+section {
+    position: absolute;
+    border: 1px;
+    /* margin: 5px; */
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.637);
+    background-color: rgba(39, 38, 43, 0.5);
+    height: 90%;
+    width: 90%;
+    
+}
+
+section h4,p {
+    color: white;
+    margin-left: 5px;
+    font-family: 'Mali', cursive;
+}
+
+
+/* First Row */
+
+.img1 {
+    background: url('../assets/paris-1.jpg');
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(../assets/paris-2.jpg);
+    background-size: cover;
+
+}
+
+.img3 {
+    background-image: url(../assets/los-angeles-4.jpg);
+    background-size: cover;
+}
+
+
+/* Second Row */
+
+.img4 {
+    background: url('../assets/las-vegas-2.jpg');
+    background-size: cover;
+}
+.img5 {
+    background: url('../assets/mount10.jpg');
+    background-size: cover;
+}
+.img6 {
+    background: url('../assets/poza-5.jpg');
+    background-size: cover;
+}
+/* Third Row */
+
+.img7 {
+    background-image: url('../assets/30.jpg');
+    background-size: cover;
+}
+.img8 {
+    background-image: url('../assets/paris-9.jpg');
+    background-size: cover;
+}
+.img9 {
+    background-image: url('../assets/paris-13.jpg');
+    background-size: cover;
+}
+
